@@ -36,7 +36,7 @@ app.post("/", function(req, res) {
 
   const options = {
     method: "POST",
-    auth: "lky:5d31bdb8796a383ebec6368f826baec9-us1"
+    auth: "lky:fcbf4f12b655fcab18ed9ec82ce4c217-us1"
   }
 
   const request = https.request(url, options, function(response) {
@@ -64,8 +64,3 @@ app.post("/failure", function(req, res) {
 app.listen(process.env.PORT || 3000, function() {
   console.log("Server is running on port 3000");
 });
-
-
-
-// list id 7b3456f924
-// api key 5d31bdb8796a383ebec6368f826baec9-us1
